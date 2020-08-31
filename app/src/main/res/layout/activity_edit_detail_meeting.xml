@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.InformationDetailMeeting">
+    <include layout="@layout/layout_tool_bar"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/calendar_80"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:editable="false"
+            android:text="Thứ 5 ngày 26/08/2020"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:background="@drawable/bg_root_edit_detail_activity"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center|left"
+            android:id="@+id/edt_date_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/time_100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <LinearLayout
+            android:background="@drawable/bg_root_edit_detail_activity"
+            android:layout_marginLeft="10dp"
+            android:padding="15dp"
+            android:gravity="center|start"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           <TextView
+               android:fontFamily="@font/bellerose"
+               android:textColor="@android:color/black"
+               android:textSize="15sp"
+               android:text="Từ"
+               android:gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/txt_time_detail_start"
+                android:text="10:00"
+                android:gravity="center"
+                android:fontFamily="@font/bellerose"
+                android:textColor="@color/colorDocx"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:fontFamily="@font/bellerose"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:text="đến"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/txt_time_detail_end"
+                android:gravity="center_vertical"
+                android:text="14:00"
+                android:paddingLeft="2dp"
+                android:fontFamily="@font/bellerose"
+                android:textColor="@color/colorDocx"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/address_100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <Spinner
+            android:padding="10dp"
+            android:background="@drawable/bg_root_edit_detail_activity"
+            android:id="@+id/spinner_address_detail"
+            android:text="Tầng 7 - Phòng 6"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/title_50"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:text="Phỏng vấn ứng viên tại trung tâm CNTT
+                          Thương mại và xuất nhập khẩu Viettel"
+            android:fontFamily="@font/bellerose"
+            android:id="@+id/edt_title_detail"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_root_edit_detail_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="left"
+            android:scaleType="fitXY"
+            android:src="@drawable/content_50"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:text="Nội dung chi tiết"
+            android:maxEms="10"
+            android:padding="10dp"
+            android:background="@drawable/bg_root_edit_detail_activity"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:id="@+id/edt_content_detail"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/attachment_100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:weightSum="5"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_attachment"
+                android:layout_weight="3.2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:id="@+id/txt_tai_file"
+                android:textStyle="bold|italic"
+                android:textColor="@color/colorDocx"
+                android:textSize="12sp"
+                android:text="@string/toida2file"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/bellerose"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:text="@string/thanhphanthamdu"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <AutoCompleteTextView
+        android:layout_marginTop="5dp"
+        android:paddingVertical="10dp"
+        android:textSize="14sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/bellerose"
+        android:hint="Nhập để thêm thành viên"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/txt_search_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_weight="5"
+        android:background="@drawable/bg_root_edit_detail_activity"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/recycler_edit_member_join"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_Edit_detail"
+        android:layout_marginTop="5dp"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_gravity="bottom"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/bellerose"
+            android:text="@string/huycuochop"
+            android:id="@+id/btn_detele_user"
+            android:background="@color/colorDelete"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/bellerose"
+            android:text="Update"
+            android:textStyle="bold"
+            android:background="@color/colorDocx"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

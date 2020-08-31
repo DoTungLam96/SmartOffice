@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+       <TextView
+           android:id="@+id/txt_title_toolbar"
+           android:text="Tất cả cuộc họp"
+           android:layout_marginRight="15dp"
+           android:fontFamily="@font/bellerose"
+           android:textStyle="bold"
+           android:textSize="16sp"
+           android:textColor="@color/colorWhite"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+   </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

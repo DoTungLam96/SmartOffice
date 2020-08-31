@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.InformationDetailMeeting">
+    <include layout="@layout/layout_tool_bar"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/calendar_80"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:text="Thứ 5 ngày 26/08/2020"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center|left"
+            android:id="@+id/txt_date_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/time_100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/txt_time_detail"
+            android:gravity="left|center"
+            android:text="Từ 10:00 đến 12:45"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/address_100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/txt_address_detail"
+            android:text="Tầng 7 - Phòng 6"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/title_50"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:text="Phỏng vấn ứng viên tại trung tâm CNTT
+                          Thương mại và xuất nhập khẩu Viettel"
+            android:fontFamily="@font/bellerose"
+            android:id="@+id/txt_title_detail"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="left"
+            android:scaleType="fitXY"
+            android:src="@drawable/content_50"
+            android:layout_width="55dp"
+            android:layout_height="55dp"/>
+        <TextView
+            android:text="Nội dung chi tiết"
+            android:fontFamily="@font/bellerose"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:id="@+id/txt_content_detail"
+            android:layout_marginLeft="10dp"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/attachment_100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/btn_attach_docx"
+            android:drawablePadding="5dp"
+            android:paddingHorizontal="12dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="quanlytien.docx"
+            android:fontFamily="@font/bellerose"
+            android:textSize="13sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <Button
+            android:id="@+id/btn_attach_pdf"
+            android:drawablePadding="5dp"
+            android:paddingHorizontal="12dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="thong.pdf"
+            android:fontFamily="@font/bellerose"
+            android:textSize="13sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/txt_toi_da_flie"
+            android:textStyle="bold|italic"
+            android:textColor="@color/colorDocx"
+            android:textSize="13sp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/bellerose"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:text="@string/thanhphanthamdu"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="10dp"
+        android:id="@+id/recycler_view_detail_booking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SmartOffice</string>
+
+    <string name="dangnhap">ĐĂNG NHẬP SSC</string>
+    <string name="dangnhapfaceid">ĐĂNG NHẬP FACEID</string>
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="danhsachcuochop">Bạn có %1$s cuộc họp</string>
+    <string name="xemtatca"><u><b><i>Xem tất cả cuộc họp</i></b></u></string>
+    <string name="datlichphonghop">Đặt lịch phòng họp</string>
+    <string name="kiemtraphonghop">Kiểm tra phòng họp</string>
+    <string name="batdaucuochop">Bắt đầu cuộc họp</string>
+    <string name="ketthuccuochop">Kết thúc cuộc họp</string>
+    <string name="rutgon">Xem rút gọn</string>
+    <string name="thanhphanthamdu">Thành phần tham dự</string>
+    <string name="toidafile">Tải file lên</string>
+    <string name="toida2file"><b><u>upload files (max: 2)</u></b></string>
+    <string name="chuacofile">Chưa có file đính kèm</string>
+    <string name="suacuochop">Chỉnh sửa cuộc họp</string>
+    <string name="huycuochop">Hủy lịch họp</string>
+    <string name="capnhacuochop">Cập nhật lịch</string>
+    <string name="thoigianhop">%1$s</string>
+    <string name="thanhviendathamgia">Thành viên này đã tham gia.</string>
+    <string name="khunggiochuachinhxac">Khung giờ bạn chọn đã có người đặt phòng.</string>
+    <string name="ngaydatlichkhongdung">Ngày đặt của bạn đang nhỏ hơn ngày hiện tại</string>
+    <string name="giohanhchinh">Bạn vui lòng đặt lịch họp trong giờ hành chính</string>
+    <string name="thoigianketthucnhohon">Thời gian kết thúc nhỏ hơn thời gian bắt đầu</string>
+    <string name="capnhatdatlich">Bạn đã sửa lịch họp thành công.</string>
+    <string name="datlichgiohanhchinh">Vui lòng đặt lịch họp trong giờ hành chính</string>
+    <string name="chonthoigianbatdau">Vui lòng chọn thời gian bắt đầu trước</string>
+    <string name="xoalichhop">Bạn đã xóa lịch họp</string>
+    <string name="canhbaoxoalichhop">Cảnh báo</string>
+    <string name="banmuonxoalichhopkhong">Bạn có muốn xóa lịch họp này không?</string>
+    <string name="datlichhop">Bạn đã đặt lịch họp thành công.</string>
+    <string name="khongdetronggiatri">Không để trống các giá trị</string>
+    <string name="banmuonroikhoiphong">Bạn muốn rời khỏi phòng họp?</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "319542060934",
+    "firebase_url": "https://smartoffice-53f92.firebaseio.com",
+    "project_id": "smartoffice-53f92",
+    "storage_bucket": "smartoffice-53f92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319542060934:android:243c60d440675e57fc2e07",
+        "android_client_info": {
+          "package_name": "com.example.smartoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319542060934-pv4nuh0ee4gjd7guad2u7mv7ugunr9jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartoffice",
+            "certificate_hash": "59a96ff365e2b8b24ae0b0b603d9368c492c2f7b"
+          }
+        },
+        {
+          "client_id": "319542060934-mn58dgcgf5nuunbo4g1qsu2hdf5n90du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe9OGm7Ni4L9YwJQv0e1GjnpxpcGNUIsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319542060934-mn58dgcgf5nuunbo4g1qsu2hdf5n90du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

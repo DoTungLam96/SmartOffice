@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18BCAC</color>
+    <color name="colorPrimaryDark">#18BCAC</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorDelete">#FD3131</color>
+
+    <color name="colorNavigation">#18BCAC</color>
+    <color name="colorGray">#A9F4F2F2</color>
+    <color name="colorDivider">#D6D6D6</color>
+
+    <color name="toolbarTransparent">#00FFFFFF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="textColorHome">#737272</color>
+
+    <color name="textColorButtonSearch">#5A5A5A</color>
+
+    <color name="colorWhenClick">#D74BB8AE</color>
+
+    <color name="colorBtnDisable">#9C9898</color>
+    <color name="colorBtnEnable">#3AC640</color>
+
+    <color name="colorPDF">#D64835</color>
+    <color name="colorDocx">#3498DB</color>
+
+    <color name="colorDividerCustomView">#702A7FB8</color>
+
+    <color name="bg_custom_view_color">#F3EAEE</color>
+
+    <color name="colorUserInfor">#CFA78C</color>
+
+
+</resources>
